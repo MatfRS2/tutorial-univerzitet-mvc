@@ -4,14 +4,14 @@ namespace Moj_Univerzitet.Models
 {
     public enum Ocena
     {
-        Oc5=5, Oc6, Oc7, Oc8, Oc9, Oc10
+        OcNijeIzasao = 4, Oc5, Oc6, Oc7, Oc8, Oc9, Oc10
     }
 
     public class Polaganje
     {
-        public Guid PolaganjeID { get; set; }
-        public Guid PredmetID { get; set; }
-        public Guid StudentID { get; set; }
+        public Guid PolaganjeId { get; set; }
+        public Guid PredmetId { get; set; }
+        public Guid StudentId { get; set; }
         public Ocena? Ocena { get; set; }
 
         public Predmet Predmet { get; set; }
