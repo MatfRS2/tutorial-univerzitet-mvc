@@ -7,7 +7,7 @@ namespace Moj_Univerzitet.Models
 {
     public class Student
     {
-        public Guid StudentId { get; set; }
+        public int StudentId { get; set; }
         public string Prezime { get; set; }
         public string Ime { get; set; }
         public DateTime DatumPolaganja { get; set; }

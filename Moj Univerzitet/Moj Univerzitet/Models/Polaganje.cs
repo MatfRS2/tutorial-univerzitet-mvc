@@ -9,9 +9,9 @@ namespace Moj_Univerzitet.Models
 
     public class Polaganje
     {
-        public Guid PolaganjeId { get; set; }
-        public Guid PredmetId { get; set; }
-        public Guid StudentId { get; set; }
+        public int PolaganjeId { get; set; }
+        public int PredmetId { get; set; }
+        public int StudentId { get; set; }
         public Ocena? Ocena { get; set; }
 
         public Predmet Predmet { get; set; }
