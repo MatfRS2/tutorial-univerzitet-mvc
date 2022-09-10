@@ -19,7 +19,6 @@ namespace Moj_Univerzitet.Pages
 
         public void OnGet()
         {
-
         }
     }
 }
